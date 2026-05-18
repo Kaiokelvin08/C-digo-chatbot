@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, SystemMessage
 
 # Configure sua chave aqui
-os.environ['GROQ_API_KEY'] = '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'
+os.environ['GROQ_API_KEY'] = 'SUA_CHAVE_API'
 
 # Inicializando o modelo Llama 3.3 70B
 model = ChatGroq(model="llama-3.3-70b-versatile")
